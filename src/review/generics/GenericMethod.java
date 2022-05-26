@@ -1,6 +1,6 @@
 package review.generics;
 
-public class Generic {
+public class GenericMethod {
 
     public static void main(String[] args) {
         Integer[] intArray = {1, 2, 3, 4, 5};
@@ -18,8 +18,7 @@ public class Generic {
         System.out.println(getFirst(charArray));
         System.out.println(getFirst(stringArray));
 
-
-    }
+     }
 
 //    Generic method
     public static <Thing>  void displayArray(Thing[] array) {
