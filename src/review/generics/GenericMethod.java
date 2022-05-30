@@ -21,7 +21,7 @@ public class GenericMethod {
      }
 
 //    Generic method
-    public static <Thing>  void displayArray(Thing[] array) {
+    public static <Thing> void displayArray(Thing[] array) {
         for(Thing x : array) {
             System.out.print(x + " ");
         }
